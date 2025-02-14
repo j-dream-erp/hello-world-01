@@ -1,9 +1,0 @@
-```mermaid
-flowchart TD
-    A[User] -->|Login| B[Auth Server]
-    B -->|Token| C[Client App]
-    C -->|Request| B
-    B -->|Validate| D[Database]
-    D -->|User Info| B
-    B -->|Response| C
-```
